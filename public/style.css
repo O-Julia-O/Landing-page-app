@@ -78,9 +78,9 @@ section {
     padding-bottom: var(--Spacing-800);
 }
 
-/* ! HEADER  */
+/* ! Logo  */
 
-header{
+.logo{
     display: flex;
     justify-content: center;
     margin-top: 48px;
