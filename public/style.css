@@ -119,6 +119,11 @@ section {
     border-radius: 29px;
     background-color: var(--Purple-600);
     cursor: pointer;
+    transition: background-color ease-in-out .4s;
+}
+
+.button:hover {
+    background-color: #B18BDD;
 }
 
 .button a {
@@ -134,6 +139,20 @@ section {
     gap: 16px;
     margin-top: 24px;
 }
+
+.button-cyan {
+    background-color: var(--Cyan-600);
+}
+
+.button-cyan:hover {
+    background-color: #71C0D4;
+}
+
+.button-cyan span {
+    color: var(--Cyan-300);
+}
+
+/* background header */
 
 .image_faces {
     background-image: url("./assets/tablet/image-hero.png");
