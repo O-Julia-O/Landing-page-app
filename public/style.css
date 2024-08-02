@@ -100,6 +100,8 @@ section {
     border-radius: 8px;
 }
 
+/* conteiner header */
+
 .container__header {
     text-align: center;
 }
@@ -108,6 +110,8 @@ section {
     margin-bottom: 24px;
     font-weight: 900;
 }
+
+/* buttons */
 
 .button {
     padding: 16px 40px;
@@ -128,4 +132,15 @@ section {
     justify-content: center;
     gap: 16px;
     margin-top: 24px;
+}
+
+/* image hero */
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    width: 150%;
 }
