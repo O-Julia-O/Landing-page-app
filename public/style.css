@@ -7,6 +7,8 @@
     font-weight: var(--Font-Weight-medium);
     letter-spacing: 0;
     line-height: 110%;
+
+    text-align: center;
 }
 
 :root {
@@ -65,12 +67,6 @@
     line-height: 150%;
 }
 
-/* ! MAIN */ 
-
-main {
-    
-}
-
 /* ! SECTION */
 
 section {
@@ -94,6 +90,8 @@ section {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 16px;
+    margin-bottom: 64px;
+    margin-top: 64px;
 }
 
 .images img {
@@ -166,4 +164,11 @@ section {
 .bubble {
     display: flex;
     justify-content: center;
+}
+
+.tag {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: var(--Font-Wight-black);
+    color: var(--Cyan-600);
 }
