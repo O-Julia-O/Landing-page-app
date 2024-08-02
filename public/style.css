@@ -7,6 +7,8 @@
     font-weight: var(--Font-Weight-medium);
     letter-spacing: 0;
     line-height: 110%;
+
+    text-align: center;
 }
 
 :root {
@@ -65,12 +67,6 @@
     line-height: 150%;
 }
 
-/* ! MAIN */ 
-
-main {
-    
-}
-
 /* ! SECTION */
 
 section {
@@ -94,6 +90,8 @@ section {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 16px;
+    margin-bottom: 64px;
+    margin-top: 64px;
 }
 
 .images img {
@@ -161,4 +159,36 @@ section {
     background-size: 120%;
     background-repeat: no-repeat;
     background-position: top center;
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+}
+
+.tag {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: var(--Font-Wight-black);
+    color: var(--Cyan-600);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: var(--Font-Wight-black);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.explaination {
+    font-size: 16px;
+}
+
+.footer {
+    color: var(--White);
+    background-image: url("./assets/mobile/image-footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    margin: 0;
 }
