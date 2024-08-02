@@ -162,3 +162,8 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
 }
+
+.bubble {
+    display: flex;
+    justify-content: center;
+}
