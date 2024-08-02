@@ -75,7 +75,7 @@ main {
 /* ! SECTION */
 
 section {
-    
+    padding-bottom: var(--Spacing-800);
 }
 
 /* ! HEADER  */
@@ -84,4 +84,18 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 48px;
+}
+
+/* images */
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 8px;
 }
