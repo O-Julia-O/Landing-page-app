@@ -67,6 +67,11 @@
 
 /* ! MAIN */ 
 
+main {
+    margin-left: var(--Spacing-400);
+    margin-right: var(--Spacing-400);
+}
+
 /* ! SECTION */
 
 /* ! HEADER  */
