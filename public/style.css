@@ -172,3 +172,15 @@ section {
     font-weight: var(--Font-Wight-black);
     color: var(--Cyan-600);
 }
+
+h2 {
+    font-size: 32px;
+    font-weight: var(--Font-Wight-black);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.explaination {
+    font-size: 16px;
+    color: var(--Slate-600);
+}
