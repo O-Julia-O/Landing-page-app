@@ -74,6 +74,8 @@ main {
 /* ! SECTION */
 
 section {
+    margin-left: var(--Spacing-400);
+    margin-right: var(--Spacing-400);
     padding-bottom: var(--Spacing-800);
 }
 
