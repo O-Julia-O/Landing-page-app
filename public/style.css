@@ -94,10 +94,10 @@ section {
     margin-top: 64px;
 }
 
-.images img {
-    width: 100%;
+.    width: 100%;
     border-radius: 8px;
-}
+}images img {
+
 
 /* conteiner header */
 
@@ -233,7 +233,19 @@ h2 {
     }
 
     .footer {
+        height: 420px;
         background-image: url("./assets/desktop/image-footer.jpg");
-        height: 312px;
+        background-color:  var(--Cyan-600);
+        background-position-x: center;
+        background-position-y: bottom;
+
+        background-blend-mode: overlay;
     }
+    
+    .container__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
 }
