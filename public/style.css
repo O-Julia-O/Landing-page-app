@@ -140,7 +140,7 @@ p {
 }
 
 .main-idea {
-    max-width: 33.75;
+    max-width: 33.75rem;
     gap: var(--Spacing-400);
 }
 
@@ -183,6 +183,10 @@ p {
 
 .button-purple span {
     color: var(--Purple-300);
+}
+
+.button-cyan:first-child {
+    margin-right: 1.063rem;
 }
 
 .button-purple:hover {
