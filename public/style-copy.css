@@ -204,6 +204,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     column-gap: var(--Spacing-400);
+    justify-content: space-between;
 }
 
 .wrapper-footer>* {
