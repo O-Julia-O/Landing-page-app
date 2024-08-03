@@ -1,0 +1,162 @@
+:root {
+    /* colors */
+    --Cyan-600: #4D96A9;
+    --Cyan-300: #8FE3F9;
+
+    --Purple-600: #855FB1;
+    --Purple-300: #D9B8FF;
+
+    --Slate-900: #28283D;
+    --Slate-600: #87879D;
+    --Slate-300: #D1D1DF;
+
+    --White: #fff;
+
+    /* fonts */
+    --Font-Family: "Red Hat Display", sans-serif;
+    --Font-Wight-black: 900;
+    --Font-Weight-medium: 500;
+
+    /* spacing */
+    --Spacing-1400: 112px;
+    --Spacing-1000: 80px;
+    --Spacing-900: 72px;
+    --Spacing-800: 64px;
+    --Spacing-700: 56px;
+    --Spacing-500: 40px;
+    --Spacing-400: 32px;
+    --Spacing-300: 24px;
+    --Spacing-200: 16px;
+    --Spacing-100: 8px;
+    --Spacing-50: 4px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: var(--Font-Family);
+    font-weight: var(--Font-Weight-medium);
+    letter-spacing: 0;
+    line-height: 110%;
+
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-logo {
+    margin-top: 80px;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.tablet-phone-img {
+    display: none;
+}
+
+.desktop-img {
+    display: block;
+    position: absolute;
+    max-width: 300px;
+}
+
+.desktop-img-left  {
+    top: auto;
+    left: -3%;
+}
+
+.desktop-img-right {
+    top: auto;
+    right: 3%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+.flex-center {
+    display: grid;
+    justify-items: center;
+}
+
+.main-idea {
+    max-width: 540px;
+    gap: 32px;
+}
+
+.main-message {
+    position: relative;
+    margin-top: var(--Spacing-800);
+    margin-bottom: var(--Spacing-800);
+}
+
+.main-text {
+    font-weight: 900;
+    font-size: var(--Spacing-800);
+}
+
+.main-paragraph {
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.button {
+    display: inline-block;
+    padding: var(--Spacing-200) var(--Spacing-500);
+    border-radius: 1.813rem;
+    cursor: pointer;
+    transition: background-color ease-in-out .4s;
+}
+
+.button a {
+    text-decoration: none;
+    width: 100%;
+    color: var(--White);
+}
+
+.button-purple {
+    background-color: var(--Purple-600);
+}
+
+.button-purple:hover {
+    background-color: #B18BDD;
+}
+
+.button-cyan {
+    background-color: var(--Cyan-600);
+}
+
+.button-cyan:hover {
+    background-color: #71C0D4;
+}
