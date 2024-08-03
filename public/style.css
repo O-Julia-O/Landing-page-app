@@ -140,7 +140,7 @@ p {
 }
 
 .main-idea {
-    max-width: 33.75;
+    max-width: 33.75rem;
     gap: var(--Spacing-400);
 }
 
