@@ -205,6 +205,8 @@ footer {
     position: relative;
     z-index: 1;
     height: 18rem;
+
+    margin-top: 6.75rem;
 }
 
 footer > section > *  {
