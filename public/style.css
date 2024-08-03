@@ -185,6 +185,10 @@ p {
     color: var(--Purple-300);
 }
 
+.button-cyan:first-child {
+    margin-right: 1.063rem;
+}
+
 .button-purple:hover {
     background-color: #B18BDD;
 }
