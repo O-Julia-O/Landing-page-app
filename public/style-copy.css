@@ -168,14 +168,20 @@ p {
     transition: background-color ease-in-out .4s;
 }
 
-.button a {
+.button a, .button span {
     text-decoration: none;
     width: 100%;
     color: var(--White);
+    font-weight: 900;
+    font-size: var(--Spacing-200);
 }
 
 .button-purple {
     background-color: var(--Purple-600);
+}
+
+.button-purple span {
+    color: var(--Purple-300);
 }
 
 .button-purple:hover {
@@ -184,6 +190,10 @@ p {
 
 .button-cyan {
     background-color: var(--Cyan-600);
+}
+
+.button-cyan span {
+    color: var(--Cyan-300);
 }
 
 .button-cyan:hover {
@@ -233,4 +243,20 @@ footer::before {
 
 .footer-paragraph {
     flex-basis: 22.188rem;
+}
+
+.parent-bubble {
+    position: relative;
+}
+
+.bubble {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 9;
+}
+
+.gallery-container {
+    margin-bottom: 4.5rem;
 }
